@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora IMC</h1>
+    </header>
+    <section>
+        <div id="form">
+            <p>Sexo</p>
+            <table>
+                <tr>
+                    <td><button onclick="">Mulher</button></td>
+                    <td><button onclick="">Homem</button></td>
+                </tr>
+            </table>
+            <p>Idade</p>
+            <p>
+                <input type="number" name="numIdade" id="numIdade"> 
+            </p>
+            <p>Altura</p>
+            <p>
+                <input type="number" name="numAltura" id="numAltura"> 
+            </p>
+            <p>Peso</p>
+            <p>
+                <input type="number" name="numPeso" id="numPeso"> 
+            </p>
+            <button id="calcular" onclick="calcular()">Calcular</button>
+        </div>
+        <div id="res">
+            Calculando...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; IgorSouza </p>
+    </footer>
+    <script> src="script.js"</script>
+</body>
+</html>
