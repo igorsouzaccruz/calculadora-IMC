@@ -26,7 +26,7 @@ function calcular(){
     let p = Number(peso.value)
     let a = Number(altura.value)
     let i = Number(idade.value)
-    if( 20 < i < 59){
+    if(20 < i && i > 59){
         alert("ERRO idadeException! A faixa de idade deve ser entre: 20 e 59 anos. ")
     }
 
